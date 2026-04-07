@@ -1,6 +1,5 @@
 # SpringBoot 开发实践 - 第六周 JdbcTemplate 数据访问
 
-这个示例项目已经帮你完成了：
 
 - 任务一：配置数据源
 - 任务二：创建 `UserDao` 并完成 CRUD
