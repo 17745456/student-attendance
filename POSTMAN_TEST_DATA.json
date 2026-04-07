@@ -1,0 +1,57 @@
+{
+  "createUser": {
+    "method": "POST",
+    "url": "http://localhost:8080/users",
+    "body": {
+      "username": "teacher03",
+      "password": "123456",
+      "realName": "赵老师",
+      "role": "TEACHER"
+    }
+  },
+  "getById": {
+    "method": "GET",
+    "url": "http://localhost:8080/users/1"
+  },
+  "getByUsername": {
+    "method": "GET",
+    "url": "http://localhost:8080/users/username/teacher01"
+  },
+  "getAllUsers": {
+    "method": "GET",
+    "url": "http://localhost:8080/users"
+  },
+  "getAllTeachers": {
+    "method": "GET",
+    "url": "http://localhost:8080/users/teachers"
+  },
+  "getByRole": {
+    "method": "GET",
+    "url": "http://localhost:8080/users/role/TEACHER"
+  },
+  "countByRole": {
+    "method": "GET",
+    "url": "http://localhost:8080/users/count/TEACHER"
+  },
+  "updateUser": {
+    "method": "PUT",
+    "url": "http://localhost:8080/users/1",
+    "body": {
+      "password": "888888",
+      "realName": "张老师（已修改）",
+      "role": "TEACHER"
+    }
+  },
+  "deleteUser": {
+    "method": "DELETE",
+    "url": "http://localhost:8080/users/4"
+  },
+  "login": {
+    "method": "POST",
+    "url": "http://localhost:8080/auth/login",
+    "body": {
+      "username": "teacher01",
+      "password": "123456"
+    }
+  }
+}
